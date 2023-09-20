@@ -1,0 +1,286 @@
+
+*{
+  color:#344767;
+}
+input {
+  border:0px;
+  outline: 0px;
+  
+}
+
+.titleMain {
+  margin-left: 2vh;
+  height: 5vh;
+}
+
+.title {
+  
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 22px;
+  color: #344767;
+  margin-bottom: 1vh;
+}
+
+.subtitle {
+  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #344767;
+}
+
+
+
+.main{
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    color: white;
+    
+  }
+  .form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .left{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+  }
+  .logodiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+ 
+  .shareCardDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    height: 100%;
+    align-items: center;
+  }
+
+  .logo{
+    width: 40%;
+    margin-top: 20px;
+  }
+  .logoSmall{
+    width: 30%;
+  }
+
+  .sexoImage{
+    width: 40px;
+    margin-right: 10px;
+  }
+
+  .identification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .identificationText{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+  }
+  
+  .shareCard{
+    width: 70%;
+    max-height: 75%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    color:#344767;
+  }
+
+  hr{
+   color: black; 
+  }
+
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vh;
+  }
+  .formInput input {
+    padding: 0.8vw;
+    border-radius: 0.5vw;
+    border: 0.1vh solid #d1d1d1;
+    background: #fff;
+    box-shadow: 0px 0.417vw 0.417vw 0px rgba(0, 0, 0, 0.25);
+    font-size: 0.75rem;
+    font-family: "Roboto", sans-serif;
+    
+  }
+  
+  .formInput span {
+    display: flex;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: 0.01563rem;
+  }
+  
+  
+  .coletaDados{
+    width:40%;
+    
+  }
+
+
+
+  .sexo{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .sexo span{
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    letter-spacing: 0.01563rem;
+  }
+
+  .sexoInput{
+    padding: 0.8vw;
+    border-radius: 0.5vw;
+    border: 0.1vh solid #d1d1d1;
+    background: #fff;
+    box-shadow: 0px 0.417vw 0.417vw 0px rgba(0, 0, 0, 0.25);
+    font-size: 0.75rem;
+    
+  }
+
+  .divsector{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tabelaDiv{
+    padding: 0.8vw;
+    width: 40% ;
+    border-radius: 0.5vw;
+    border: 0.1vh solid #d1d1d1;
+    background: #fff;
+    box-shadow: 0px 0.417vw 0.417vw 0px rgba(0, 0, 0, 0.25);
+    font-size: 0.75rem;
+    height: max-content;
+  }
+
+  /* Estilo para a tabela */
+table {
+  
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  
+  
+}
+
+/* Estilo para o cabeçalho da tabela */
+thead {
+  background-color: #f2f2f2;
+  
+}
+
+thead th {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  
+  
+}
+
+
+/* Estilo para as células da tabela */
+tbody td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+  text-align: center;
+  
+}
+
+/* Estilo para as células de seleção (checkbox) */
+tbody input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+/* Estilo para as células de texto da tabela */
+tbody td:first-child {
+  font-weight: bold;
+}
+
+/* Estilo para as células de seleção (checkbox) na primeira coluna */
+tbody td:first-child input[type="checkbox"] {
+  margin-right: 0;
+}
+
+/* Estilo para as linhas pares da tabela (opcional) */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.button{
+  font-size: 14px;
+  width: 40%;
+  height: 50%;
+}
+
+.buttonGenerate{
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 90%;
+}
+.buttonDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
